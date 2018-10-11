@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/lamps.js"></script>
+    <meta charset="UTF-8">
+    <title>New lamp</title>
+</head>
+<body>
+<H4>Create new lmap</H4>
+<form id="from">
+    <input class="form-control" id="lampName" placeholder="Name">
+    <input class="form-control" id="lampColor" placeholder="Color">
+    <input class="form-control" id="lampDesigner" placeholder="Designer">
+    <input class="form-control" id="lampPrice" placeholder="Price">
+    <input class="form-control" id="lampQty" placeholder="Qty">
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Posts</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <i class="fas fa-address-card"></i>
+        <div class="col">
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table id="lampsTable"
+                   class="table table-bordered
+                       table-condensed table-striped">
+                <thead>
+                <tr>
+                    <th class="small">Id</th>
+                    <th class="small">Name</th>
+                    <th class="small">Color</th>
+                    <th class="small">Designer</th>
+                    <th class="small">Qty</th>
+                    <th class="extend">
+                        <th class="small">Price</th>
+                    </th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+            </table>
+            <div style="text-align: center" class="col-12">
+                <button type="button" class="btn btn-danger" onclick="getLamps()"><i class="fas fa-spinner"></i> Get Data</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
