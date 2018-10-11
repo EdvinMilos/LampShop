@@ -30,9 +30,11 @@ body{
 
    /* Navigation Bar */
 
+   header{
+
+   }
     nav{
         grid-area: nav;
-        background: rgb(14, 21, 22);
         color: white;
         display: inline-block;
         flex-direction: column;
@@ -69,9 +71,10 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+background: #000;
         grid-area: hd;
-        background: rgb(14, 21, 22);
         height: 100px;
+
     }
     #logo_li{
         display: flex;
@@ -97,14 +100,6 @@ body{
 
    /* -------------------- */
 
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        grid-area: hd;
-        background: rgb(14, 21, 22);
-        height: 100px;
-    }
     #logo{
         padding: 20px 20px 20px 40px;
         width: 100px;
